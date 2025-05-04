@@ -1,6 +1,6 @@
 # Sales Manager Skills Analysis from hh.ru
 
-This project analyzes key skills required for sales managers based on job postings from hh.ru (Russia's leading job platform).
+This project analyzes key skills required for sales managers based on job postings from hh.ru.
 
 ## 📊 Project Overview
 
@@ -27,29 +27,6 @@ The project includes:
 - Unique skills identified: 1,074
 - Total skill mentions: 5,451
 
-## 📂 Project Structure
-
-```
-hh-skills-analysis/
-├── data/                   # Raw and processed data
-├── notebooks/              # Jupyter notebooks with analysis
-├── scripts/                # Web scraping scripts
-├── app/                    # Web application with visualizations
-├── requirements.txt        # Python dependencies
-└── README.md
-```
-
-## 🛠 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/hh-skills-analysis.git
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 ## 🤝 Contributing
 
