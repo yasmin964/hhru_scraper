@@ -1,63 +1,79 @@
-# Анализ навыков менеджеров по продажам с hh.ru
+# Sales Manager Skills Analysis from hh.ru
 
-Этот проект анализирует ключевые навыки, требуемые от менеджеров по продажам, на основе данных с hh.ru.
+This project analyzes key skills required for sales managers based on job postings from hh.ru (Russia's leading job platform).
 
-## 📊 О проекте
+## 📊 Project Overview
 
-Проект включает:
-- Парсинг вакансий с hh.ru
-- Нормализацию и анализ навыков
-- Визуализацию результатов
-- Интерактивный дашборд
+The project includes:
+- Web scraping of sales manager job postings from hh.ru
+- Skills normalization and analysis
+- Interactive data visualizations
+- Deployed dashboard
 
-## 🚀 Демо
+## 🚀 Live Demo
 
-[![Деплой проекта](https://img.shields.io/badge/Демо-доступно-green)](https://hhru-scraper.vercel.app/)
+[![Deployed Project](https://img.shields.io/badge/Live_Demo-Available-green)](https://hhru-scraper.vercel.app/)
 
-## 🔧 Технологии
+## 🔧 Technologies Used
 
-- Python (BeautifulSoup, requests)
-- Pandas для анализа данных
-- Plotly для визуализации
-- Vercel для хостинга
+- Python (BeautifulSoup, requests for scraping)
+- Pandas for data analysis
+- Plotly for visualizations
+- Vercel for hosting
 
-## 📈 Ключевые метрики
+## 📈 Key Metrics
 
-- Проанализировано: 1,580 вакансий
-- Уникальных навыков: 1,074
-- Всего упоминаний навыков: 5,451
+- Vacancies analyzed: 1,580
+- Unique skills identified: 1,074
+- Total skill mentions: 5,451
 
-## 📂 Структура проекта
+## 📂 Project Structure
 
 ```
 hh-skills-analysis/
-├── data/                   # Исходные и обработанные данные
-├── notebooks/              # Jupyter notebooks с анализом
-├── scripts/                # Скрипты для парсинга
-├── app/                    # Веб-приложение с визуализациями
-├── requirements.txt        # Зависимости Python
+├── data/                   # Raw and processed data
+├── notebooks/              # Jupyter notebooks with analysis
+├── scripts/                # Web scraping scripts
+├── app/                    # Web application with visualizations
+├── requirements.txt        # Python dependencies
 └── README.md
 ```
 
-## 🛠 Установка
+## 🛠 Installation
 
-1. Клонировать репозиторий:
+1. Clone the repository:
 ```bash
-git clone https://github.com/ваш-username/hh-skills-analysis.git
+git clone https://github.com/your-username/hh-skills-analysis.git
 ```
 
-2. Установить зависимости:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🤝 Как помочь проекту
+## 🤝 Contributing
 
-Приветствуются:
-- Предложения по улучшению нормализации навыков
-- Идеи новых визуализаций
-- Отчеты об ошибках
+Contributions are welcome! You can help by:
+- Improving skills normalization logic
+- Suggesting new visualizations
+- Reporting issues
 
-## 📄 Лицензия
+## 📄 License
 
 MIT License
+
+---
+
+### Data Sources
+All data was collected from public job postings on [hh.ru](https://hh.ru) between [dates/period] covering Moscow and St. Petersburg regions.
+
+### Methodology
+1. Scraped job postings for "sales manager" positions
+2. Extracted and normalized skills
+3. Performed frequency and co-occurrence analysis
+4. Created interactive visualizations
+
+### Future Improvements
+- Add more cities/regions
+- Include temporal analysis (skills trends)
+- Compare across industries
